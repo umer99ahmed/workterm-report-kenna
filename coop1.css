@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Quicksand&display=swap');
+
+
+#navbar {
+
+    /* position: fixed; */
+    /* Make it stick/fixed */
+    top: 0;
+    /* Stay on top */
+    width: 100%;
+    /* Full width */
+    transition: top 0.3s;
+    /* Transition effect when sliding down (and up) */
+}
+
+nav {
+    background-color: white;
+    /* padding-left: 100; */
+    width: 100%;
+    /* padding-bottom: 20px; */
+
+}
+
+.navbar a {
+    background-color: white;
+}
+
+main {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    background-color: white;
+    align-content: center;
+}
+
+.intro {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    margin-bottom: 100;
+    background-color: white;
+    /* margin-right: 100; */
+}
+
+.intro img {
+    max-width: 25rem;
+    max-height: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.intro h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: bolder;
+    color: #cc0c1f;
+}
+
+.intro h2 {
+    padding: 60px 100px 30px 100px;
+    color: #4b4b4b;
+    font-family: 'Quicksand';
+    font-size: 1.5rem;
+    font-weight: 1;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.middle {
+    background-color: #9c0917;
+    color: azure;
+    padding: 100px 50px 50px 50px;
+}
+
+.middle img {
+    max-width: 35rem;
+    max-height: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    object-fit: cover;
+    display: block;
+
+}
+
+
+
+.paragraph {
+    background-color: white;
+    padding: 15px 50px 15px 50px;
+    color: black;
+    border-radius: 10px;
+
+}
+
+.paragraph h1 {
+    padding: 10px 0px 10px 0px;
+    color: #d4545c;
+    font-family: 'Quicksand';
+    font-size: 2rem;
+    font-weight: 1;
+    letter-spacing: 1px;
+    /* text-align: center; */
+}
+
+.paragraph h3 {
+    font-size: 1.1rem;
+    font-family: 'Quicksand';
+    line-height: 25px;
+}
+
+.row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.jobDescription {
+    padding: 150px 50px 150px 50px;
+    background: #656565;
+    width: 99vw;
+    position: relative;
+    margin-left: -50vw;
+    /* height: 100px; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    left: 50%;
+}
+
+footer h2 {
+
+    padding: 60px 100px 300px 100px;
+    color: #cc0c1f;
+    font-family: 'Quicksand';
+    font-size: 1.5rem;
+    font-weight: 1;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
